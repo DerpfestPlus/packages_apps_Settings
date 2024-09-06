@@ -46,19 +46,7 @@ public class GestureNavigationLongPressController extends TogglePreferenceContro
 
     @Override
     public int getAvailabilityStatus() {
-        PackageManager pm = mContext.getPackageManager();
-        if (pm == null) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-        try {
-            ApplicationInfo ai = pm.getApplicationInfo(GSA_PACKAGE, 0);
-            if (ai.enabled && ai.isProduct()) {
-                return AVAILABLE;
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-        return UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
