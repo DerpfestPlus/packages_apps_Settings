@@ -13,16 +13,16 @@
     <string name="advanced_keyboard_settings_title">Advanced settings</string>
 
     <!-- DerpFest version -->
-    <string name="derp_version">DerpFest version</string>
+    <string name="derp_version">Crystal version</string>
     <string name="derp_version_default">Unknown</string>
 
     <!-- Platform version -->
-    <string name="platform_version">Platform version</string>
+    <string name="platform_version">Plataform version</string>
 
     <!-- DerpFest maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="maintainer_name" translatable="false">Unknown</string>
-    <string name="maintainer_telegram" translatable="false">https://t.me/DerpFest5T</string>
+    <string name="maintainer_telegram" translatable="false">https://github.com/crystalOS-AOSP</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation settings</string>
@@ -37,8 +37,8 @@
     <string name="display_rotation_270_title">270 degrees</string>
 
     <!-- DerpFest Updater -->
-    <string name="update_settings_title">DerpFest Updater</string>
-    <string name="update_settings_summary">Check for the latest version of DerpFest</string>
+    <string name="update_settings_title">Crystal Updater</string>
+    <string name="update_settings_summary">Check for the latest version of Crystal</string>
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 
